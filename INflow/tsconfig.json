@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "types": ["node", "cypress"]
+  },
+  "include": ["./**/*.d.ts", "./**/*.{js,jsx,ts,tsx}", "./**/*.cy.{js,jsx,ts,tsx}"]
+}
